@@ -1,0 +1,111 @@
+body {
+    padding: 0;
+    margin: 0;
+    
+}
+header{
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top:0;
+}
+
+h1{
+    color: white;
+    font-family :'Raleway';
+    border: 2px solid white;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    font-family: "Garamond";
+}
+
+.w3-circle{
+    width: 30%;
+    text-align: center;
+    margin: 10px 36%;
+}
+.bio{
+    color: white;
+    background-color: #5b5c5e;
+    position: relative;
+    margin-top: 110px;
+    top:10px;
+    padding: 50px;
+
+}
+#article{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+
+}
+ul{
+    text-align: right;
+    margin-right: 30px;
+}
+li{
+    color: white;
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+li:hover{
+    background: white;
+    color: black;
+    padding: 6px;
+}
+h3{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+h4{
+    color: black;
+    padding: 15px;
+}
+
+
+
+#jd{
+    border-width: 20px;;
+    border-color: rgba(0,0,0,0.000001);
+    border-style: outset;
+}
+.addressclass{
+    margin: 0;
+    padding: 0;
+
+}
+.map-image{
+    background: url("map.png");
+    background-position: center;
+    background-size: cover;
+    position: realtive;
+    height: 300px;
+    margin: 1px;
+}
+
+.social-media h3{
+    padding: 15px;
+}
+.resize{
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.foot{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 30px;
+}
+ .foot p{
+    padding: 20px;
+ }
